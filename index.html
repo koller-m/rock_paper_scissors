@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="display-4">Rock, Paper, Scissors</h2>
+        <div class="flex-box-container" id="flex-box-rps">
+            <img id="rock" src="static/images/rock.png" alt="" height="150" width="150" onclick="rpsGame(this)">
+            <img id="paper" src="static/images/paper.png" alt="" height="150" width="150" onclick="rpsGame(this)">
+            <img id="scissors" src="static/images/scissors.png" alt="" height="150" width="150" onclick="rpsGame(this)">
+        </div>
+        <br>
+        <button class="btn btn-primary btn-sm" onClick="window.location.reload();">Reset Game</button>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
